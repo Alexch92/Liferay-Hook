@@ -32,6 +32,7 @@ import it.sincon.sigeo.service.impl.HttpConnector;
 	 
 	 
    public void onAfterCreate(User model) throws ModelListenerException {
+	   System.out.println("MYLOXYLOTOU");
      UserDTO user = new UserDTO();
      user.setActivated(Boolean.valueOf(true));
      user.setEmail(model.getEmailAddress());

@@ -23,6 +23,7 @@ import it.sincon.sigeo.service.impl.HttpConnector;
    extends BaseModelListener<Role>
  {
    public void onAfterCreate(Role model) throws ModelListenerException {
+	   System.out.println("MYLOXYLOTOR");
      if (model.getType() == 1) {
        AuthorityDTO roleSigeo = new AuthorityDTO();
        roleSigeo.setId("ROLE_" + model.getTitle(new Locale("it", "IT")).replaceAll("[^A-Za-z0-9]", "_").toUpperCase()+"_"+model.getRoleId());
