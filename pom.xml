@@ -13,14 +13,14 @@
 				<groupId>com.liferay.maven.plugins</groupId>
 				<artifactId>liferay-maven-plugin</artifactId>
 				<version>6.2.5</version>
-				<configuration>
+				<!-- <configuration>
 					<autoDeployDir>C:\Users\Alessandro\Desktop\liferay-ce-portal-7.4.3.33-ga33\deploy</autoDeployDir>
 					<appServerDeployDir>C:\Users\Alessandro\Desktop\liferay-ce-portal-7.4.3.33-ga33\tomcat-9.0.56\webapps</appServerDeployDir>
 					<appServerLibGlobalDir>C:\Users\Alessandro\Desktop\liferay-ce-portal-7.4.3.33-ga33\tomcat-9.0.56\lib</appServerLibGlobalDir>
 					<appServerPortalDir>C:\Users\Alessandro\Desktop\liferay-ce-portal-7.4.3.33-ga33\tomcat-9.0.56\webapps\ROOT</appServerPortalDir>
 					<liferayVersion>6.2.5</liferayVersion>
 					<pluginType>hook</pluginType>
-				</configuration>
+				</configuration> -->
 			</plugin>
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
