@@ -1,2 +1,2 @@
 # Liferay-Hook 
- - Created as Liferay Project Plugin
+ - Created as Liferay Project Plugin in eclipse
